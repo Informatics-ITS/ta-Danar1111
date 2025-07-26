@@ -1,52 +1,39 @@
 # 🏁 Tugas Akhir (TA) - Final Project
 
-**Nama Mahasiswa**: [Nama Lengkap]  
-**NRP**: [Nomor Registrasi Pokok]  
-**Judul TA**: [Judul Tugas Akhir]  
-**Dosen Pembimbing**: [Nama Dosen]  
-**Dosen Ko-pembimbing**: [Nama Dosen]
+**Nama Mahasiswa**: Danar Sodik Priyambodo  
+**NRP**: 5025211145  
+**Judul TA**: Sistem Deteksi Postur Duduk Ergonomis Menggunakan Pose Estimation dan Support Vector Machine  
+**Dosen Pembimbing**: Ir. Adhatus Solichah Ahmadiyah, S.Kom., M.Sc.  
 
 ---
 
 ## 📺 Demo Aplikasi  
-Embed video demo di bawah ini (ganti `VIDEO_ID` dengan ID video YouTube Anda):  
 
 [![Demo Aplikasi](https://i.ytimg.com/vi/zIfRMTxRaIs/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)  
 *Klik gambar di atas untuk menonton demo*
 
 ---
 
-*Konten selanjutnya hanya merupakan contoh awalan yang baik. Anda dapat berimprovisasi bila diperlukan.*
-
 ## 🛠 Panduan Instalasi & Menjalankan Software  
 
 ### Prasyarat  
-- Daftar dependensi (contoh):
-  - Python 3.10+
-  - Node.js v18+
-  - MySQL 8.0
-  - [Lainnya...]
+- Daftar dependensi:
+  - Ubuntu versi 20.04
+  - NVIDIA CUDA minimum versi 11.8.0, maksimum versi 12.8
+  - Docker Image versi pengembangan (devel) : nvidia/cuda:11.8.0-devel-ubuntu20.04
+  - cuDNN versi 8.3.3.40
+  - Open port 5000
+  - Storage minimum 50 GB
+  - Random Access Memory (RAM) minimum 16 GB
+  - Harus memiliki Graphics Processing Unit (GPU)
+  - Minimum Video RAM (VRAM) 8 GB
 
 ### Langkah-langkah  
-1. **Clone Repository**  
+1. **Instalasi dan deploy**  
    ```bash
-   git clone https://github.com/Informatics-ITS/TA.git
+   source <(curl -s https://raw.githubusercontent.com/Informatics-ITS/ta-Danar1111/main/install.sh)
    ```
-2. **Instalasi Dependensi**
-   ```bash
-   cd [folder-proyek]
-   pip install -r requirements.txt  # Contoh untuk Python
-   npm install  # Contoh untuk Node.js
-   ```
-3. **Konfigurasi**
-- Salin/rename file .env.example menjadi .env
-- Isi variabel lingkungan sesuai kebutuhan (database, API key, dll.)
-4. **Jalankan Aplikasi**
-   ```bash
-   python main.py  # Contoh untuk Python
-   npm start      # Contoh untuk Node.js
-   ```
-5. Buka browser dan kunjungi: `http://localhost:3000` (sesuaikan dengan port proyek Anda)
+2. Buka browser dan kunjungi: `http://localhost:5000/client` untuk gambar/video dan `http://localhost:5000/ws-client` untuk real-time assessment
 
 ---
 
@@ -71,5 +58,5 @@ Pastikan proyek memenuhi kriteria berikut sebelum submit:
 ## ⁉️ Pertanyaan?
 
 Hubungi:
-- Penulis: [email@mahasiswa]
-- Pembimbing Utama: [email@pembimbing]
+- Penulis: priyambodo02@gmail.com
+- Pembimbing Utama: adhatus@if.its.ac.id
