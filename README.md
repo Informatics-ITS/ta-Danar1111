@@ -39,19 +39,9 @@
 
 ## 📚 Dokumentasi Tambahan
 
-- [![Dokumentasi API]](docs/api.md)
-- [![Diagram Arsitektur]](docs/architecture.png)
-- [![Struktur Basis Data]](docs/database_schema.sql)
-
----
-
-## ✅ Validasi
-
-Pastikan proyek memenuhi kriteria berikut sebelum submit:
-- Source code dapat di-build/run tanpa error
-- Video demo jelas menampilkan fitur utama
-- README lengkap dan terupdate
-- Tidak ada data sensitif (password, API key) yang ter-expose
+- [![User Manual]](docs/UserManual.pdf)
+- [![Diagram Arsitektur]](docs/arsitektur.png)
+- [![Dataset]](docs/dataset_rula_reba.csv)
 
 ---
 
